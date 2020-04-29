@@ -1,0 +1,41 @@
+header {
+  background: aqua;
+  height: 100px;
+  width: 100%;
+}
+
+div {
+  height: 800px;
+  display: flex;
+  }
+
+main {
+  flex-grow: 4;
+  background: red;
+  margin: 0px 20px;
+  position: relative;
+}
+
+ablak {
+  width: 50px;
+  height: 50px;
+  background: black;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+}
+
+.left {
+  width: 10%;
+  background: orange;
+}
+
+.right {
+  width: 10%;
+  background: purple;
+}
+
+footer {
+  background: blue;
+  height: 100px;
+}

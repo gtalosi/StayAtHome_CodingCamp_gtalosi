@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - 04.21. / 08. A complicated form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<br>
+<form>
+  <fieldset>
+   <legend>Interesting application form &#128580; </legend>
+      <fieldset>
+          <legend>What is your name?</legend>
+          <input type="text" id="username">
+      </fieldset>
+    
+    <fieldset>
+          <legend>What is your favourite color?</legend>
+            <input type="radio" id="Red" name="Color">
+            <label for="Red">Red</label><br/>
+
+            <input type="radio" id="Green" name="Color">
+            <label for="Green">Green</label><br/>
+
+            <input type="radio" id="Blue" name="Color">
+            <label for="Blue">Blue</label><br/>
+      
+            <input type="radio" id="Other" name="Color">
+            <label for="Other">Other</label>
+            <input type="text" id="Other">
+    </fieldset>
+    
+    <fieldset>
+          <legend>Would you like become a developer?</legend>
+          <input type="radio" id="Yes" name="Developer">
+            <label for="Yes">Yes</label><br/>
+
+            <input type="radio" id="Ano" name="Developer">
+            <label for="Ano">Ano</label><br/>
+
+            <input type="radio" id="Igen" name="Developer">
+            <label for="Igen">Igen</label><br/>
+      
+            <input type="radio" id="Chinese" name="Developer">
+            <label for="Chinese">是</label>
+      </fieldset>
+    
+    <fieldset>
+          <legend>Why would you like become a developer?</legend>
+          <textarea id="story" name="story"
+          rows="5" cols="33">
+Tell us why...
+</textarea>
+      
+    </fieldset>
+    
+    <button>Submit</button>
+    
+  </fieldset>
+  
+</form>
+<!-- partial -->
+  
+</body>
+</html>

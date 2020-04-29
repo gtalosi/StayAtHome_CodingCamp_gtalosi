@@ -1,0 +1,16 @@
+form {
+  display: block;
+  width: 400px;
+  font-family: 'Baloo Thambi 2', cursive;
+  background: #e6e6e6;
+  border-radius: 5px;
+  }
+
+fieldset {
+  paddign: 5px;
+  margin: 10px;
+}
+
+input, textarea {
+  background: beige;
+}
