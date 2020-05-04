@@ -1,0 +1,28 @@
+h3 {
+  width: 200px;
+  background-color: lightgrey;
+  }
+
+div {
+width: 400px;
+background: lightgrey;
+padding: 20px;
+border-radius: 5px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul {
+  width: 200px;
+  background: beige;
+  padding: 20px 20px 20px 50px;
+}
+
+button {
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 3px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
